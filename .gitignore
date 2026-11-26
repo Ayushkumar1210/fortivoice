@@ -1,0 +1,40 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+*.env
+backend/.env
+.env.local
+.env.*.local
+!.env.example
+!*.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+backend/venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+
+# Local Database & Vector Storage
+backend/data/
+data/
+*.sqlite3
+
+# macOS
+.DS_Store
